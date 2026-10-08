@@ -4,7 +4,7 @@ import plotly.express as px
 import json
 import os
 
-st.set_page_config(page_title="Manage your Finances", page_icon="🤑", layout="wide")
+st.set_page_config(page_title="Manage your Finances", page_icon="$", layout="wide")
 
 category_file = "categories.json"
 if "categories" not in st.session_state:
